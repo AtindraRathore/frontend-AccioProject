@@ -10,14 +10,13 @@ nav>ul{
     position: sticky;
     background-color: yellow;
     display:flex;
+    justify-content:space-around;
     text-decoration:none;
    font-family: 'Montserrat', sans-serif;
    font-weight: 400;
    font-size: 20px;
    line-height:34.13px;
    margin-bottom:80px;
-   left:600px
-   right:10px;
 }
 
 h2{
@@ -77,18 +76,19 @@ li{
    width: 219px;
    margin-top:30px;
 }
+#lasttable{
+margin: 150px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
 #tab{
-  position:absolute;
-  left:420px;
-   height:200px;
-     width:500px;
+     height:400px;
+     width:600px;
     border: 2px solid #FCAF02;
     border-collapse:collapse;
     border-right:2px solid #FCAF02;
-    margin-top: 200px;
-    margin-bottom:200px;
-    margin-left: 20px;
-    margin-right: 20px;
+
     color:#FCAF02;
 }
 
